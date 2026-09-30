@@ -1,0 +1,3 @@
+streamlit>=1.52.2,<2
+pyogrio
+prettymapp>=0.7.0

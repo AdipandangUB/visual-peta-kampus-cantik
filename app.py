@@ -432,8 +432,7 @@ with st.expander("Daftar universitas & koordinat"):
 st.markdown("---")
 st.markdown(
     "Data peta © kontributor [OpenStreetMap](https://www.openstreetmap.org/copyright). "
-    "Diadaptasi dari [prettymapp](https://github.com/chrieke/prettymapp) "
-    "karya Christoph Rieke (lisensi MIT)."
+    "Dibangun oleh Adipandang Yudono (2026)." 
 )
 
 st.session_state["previous_style"] = style

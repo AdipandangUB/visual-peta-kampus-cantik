@@ -3,20 +3,6 @@ Peta Kampus Cantik — Universitas di Indonesia
 =============================================
 Aplikasi Streamlit untuk membuat peta artistik dari data OpenStreetMap
 (OSM) di sekitar kampus-kampus universitas di Indonesia.
-
-Diadaptasi ke Bahasa Indonesia dari aplikasi "prettymapp" karya
-Christoph Rieke (https://github.com/chrieke/prettymapp, lisensi MIT).
-Perbedaan utama dari versi asli:
-  * seluruh antarmuka berbahasa Indonesia;
-  * lokasi tidak lagi diketik sebagai alamat, tetapi dipilih dari daftar
-    15 universitas (koordinat dari tautan OpenStreetMap pada berkas
-    "Lokasi Universitas.docx");
-  * galeri contoh (Macau, Barcelona, dst.) diganti galeri 15 kampus; gambar
-    pratinjaunya dibuat oleh generate_contoh.py ke folder example_prints/
-    (aplikasi tetap berjalan tanpa gambar, hanya tombol yang tampil);
-  * "Preset gaya" menggantikan contoh gaya bawaan.
-
-Data peta: © kontributor OpenStreetMap (ODbL).
 """
 
 import copy
@@ -130,7 +116,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
-st.markdown("# 🗺️ Peta Kampus Cantik")
+st.markdown("# 🗺️ Visual Cantik Peta Kampus-kampus di Indonesia")
 st.caption(
     "Buat peta artistik dari data OpenStreetMap di sekitar universitas-universitas "
     "di Indonesia. Pilih kampus, atur radius dan gaya, lalu unduh hasilnya."

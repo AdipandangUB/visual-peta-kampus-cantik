@@ -28,11 +28,6 @@ UNIVERSITAS = [
     {"nama": "Universitas Sebelas Maret", "singkatan": "UNS", "lat": -7.55959, "lon": 110.85317, "radius": 900, "osm": "https://www.openstreetmap.org/#map=16/-7.55959/110.85317"},
     {"nama": "Institut Teknologi Sepuluh Nopember", "singkatan": "ITS", "lat": -7.28270, "lon": 112.79530, "radius": 1200, "osm": "https://www.openstreetmap.org/#map=16/-7.28270/112.79530"},
     {"nama": "Universitas Airlangga", "singkatan": "Unair", "lat": -7.26736, "lon": 112.75543, "radius": 800, "osm": "https://www.openstreetmap.org/#map=16/-7.26736/112.75543"},
-    {"nama": "Universitas Hasanuddin", "singkatan": "Unhas", "lat": -5.13256, "lon": 119.48744, "radius": 1500, "osm": "https://www.openstreetmap.org/#map=15/-5.13256/119.48744"},
-    {"nama": "Universitas Sam Ratulangi", "singkatan": "Unsrat", "lat": 1.45747, "lon": 124.82790, "radius": 1000, "osm": "https://www.openstreetmap.org/#map=16/1.45747/124.82790"},
-    {"nama": "Universitas Syiah Kuala", "singkatan": "USK", "lat": 5.56904, "lon": 95.37051, "radius": 1000, "osm": "https://www.openstreetmap.org/#map=16/5.56904/95.37051"},
-    {"nama": "Institut Teknologi Kalimantan", "singkatan": "ITK", "lat": -1.149641, "lon": 116.864051, "radius": 1200, "osm": "https://www.openstreetmap.org/#map=17/-1.149641/116.864051"},
-    {"nama": "Institut Teknologi Sumatera", "singkatan": "ITERA", "lat": -5.36351, "lon": 105.31444, "radius": 1500, "osm": "https://www.openstreetmap.org/#map=15/-5.36351/105.31444"},
 ]
 UNIV_BY_NAMA = {u["nama"]: u for u in UNIVERSITAS}
 
